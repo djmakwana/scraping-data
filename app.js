@@ -2,6 +2,7 @@ var request = require('request');
 var cheerio = require('cheerio');
 var tableToJSON = require('tabletojson'); 
 var fs = require('fs');
+async = require('async'); 
 
 var counties = {
 	'ATLANTIC' : { 'code': '0101', 'name': 'ATLANTIC', 'districts':[] },
@@ -33,20 +34,25 @@ var fullData = {
 
 const url = 'http://tax1.co.monmouth.nj.us/cgi-bin/prc6.cgi?&ms_user=monm&passwd=data&srch_type=1&adv=1&out_type=1&district=';
 
-
-function getDistricts() {
-	return new Promise( function( resolve, reject ) {
-		for (var c in counties) {
-		    // check if the property/key is defined in the object itself, not in parent
-		    if (counties.hasOwnProperty(c)) {           
-				getCounties2( url, counties[c]).then( function( cc ) {
-					console.log( cc ); 
-				}); 
-		    }
-		}
-
+for ( var c in counties ) {
+	getCounties2( url, counties[c] ).then( function( cc ) {
+		console.log( cc ); 
 	})
 }
+
+// function getDistricts() {
+// 	return new Promise( function( resolve, reject ) {
+// 		for (var c in counties) {
+// 		    // check if the property/key is defined in the object itself, not in parent
+// 		    if (counties.hasOwnProperty(c)) {           
+// 				getCounties2( url, counties[c]).then( function( cc ) {
+// 					console.log( cc ); 
+// 				}); 
+// 		    }
+// 		}
+
+// 	})
+// }
 
 
 
