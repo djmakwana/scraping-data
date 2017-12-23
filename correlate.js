@@ -2,6 +2,8 @@ var request = require('request');
 var cheerio = require('cheerio');
 var tableToJSON = require('tabletojson'); 
 var fs = require('fs');
+var async = require('async'); 
+
 const MongoClient = require('mongodb').MongoClient;
 
 // Connection URL
@@ -18,20 +20,25 @@ MongoClient.connect(url, function(err, client) {
 	const zips = db.collection("zips"); 
 
 	findZipRecords( db, "08554", function( docs ) {
-		var zipRec = docs[0]; 
-		console.log( zipRec.zip ); 
-		getDistrictForZip( zipRec.zip ).then( function( distName ) {
-			console.log( "Success found ", distName, "for", zipRec.zip ); 
-			zips.updateOne({zip:zipRec.zip}, {$set: {"district": distName }}, function( err, res ) {
-				if ( res.result && res.result.n == 1 ) {
-					console.log( "Updated", zipRec ); 
-				}
-				else if ( err ) {
-					console.log( "Failed", err ); 
-				}
-				client.close();
+		for ( var i = 0; i < docs.length; i++ ) {
+			//console.log( "Zip", docs[i] );
+			var zipRec = docs[i]; 
+			console.log( zipRec.zip ); 
+
+			getDistrictForZip( zipRec.zip ).then( function( rec ) {
+				console.log( "Success found ", rec.d, "for", rec.z ); 
+				zips.updateOne({zip:rec.z}, {$set: {"district": rec.d }}, function( err, res ) {
+					if ( res.result && res.result.n === 1 ) {
+						console.log( "Updated" ); 
+					}
+					else if ( err ) {
+						console.log( "Failed", err ); 
+					}
+				});
 			});
-		});
+		}
+		console.log( "Closing connection" );		
+		client.close();
 	});
 
 });
@@ -52,7 +59,7 @@ const findZipRecords = function(db, z, callback) {
   // Get the documents collection
   const collection = db.collection('zips');
   // Find some documents
-  collection.find({'zip': z}).toArray(function(err, docs) {
+  collection.find().limit(5).toArray(function(err, docs) {
     callback(docs);
   });
 };
@@ -62,7 +69,7 @@ const schoolDistURL = 'https://nces.ed.gov/ccd/districtsearch/district_list.asp?
 function getDistrictForZip( zip ) {
 	return new Promise( function( resolve, reject ) {	
 		var u = schoolDistURL.replace('$ZIPCODE$', zip ); 
-		console.log( u );
+		//console.log( u );
 		request( u, function( error, resp, html ) {
 			if ( error ) {
 				reject( error ); 
@@ -73,7 +80,7 @@ function getDistrictForZip( zip ) {
 				dist = dist.replace(/school district$/i, "" ); 
 				dist = dist.replace(/public/i, "").trim(); 
 				//console.log( "Found", dist, "for zip ", zip );
-				resolve( dist ); 
+				resolve( {z:zip, d:dist} ); 
 			});
 		})
 	});

@@ -30,6 +30,7 @@
   "browser": "global.js",
   "bundleDependencies": false,
   "dependencies": {
+    "async": "^2.6.0",
     "cheerio": "^1.0.0-rc.2",
     "mongodb": "^3.0.0-rc0",
     "request": "^2.83.0",
