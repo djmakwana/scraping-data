@@ -1,0 +1,70 @@
+{
+  "_from": "npm-package-skeleton",
+  "_id": "npm-package-skeleton@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-5kPZe6CP3NqKRf32TdjRtHLSzLY=",
+  "_location": "/npm-package-skeleton",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "npm-package-skeleton",
+    "name": "npm-package-skeleton",
+    "escapedName": "npm-package-skeleton",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/npm-package-skeleton/-/npm-package-skeleton-1.0.0.tgz",
+  "_shasum": "e643d97ba08fdcda8a45fdf64dd8d1b472d2ccb6",
+  "_spec": "npm-package-skeleton",
+  "_where": "/Users/makwana/makwana/swadhyay/folderData/git",
+  "author": "",
+  "bower": {
+    "TODO": "TODO"
+  },
+  "browser": "global.js",
+  "bundleDependencies": false,
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "mongodb": "^3.0.0-rc0",
+    "request": "^2.83.0",
+    "tabletojson": "^0.6.0"
+  },
+  "deprecated": false,
+  "description": "PUT-YOUR-PACKAGE-DESCRIPTION-HERE",
+  "devDependencies": {},
+  "format": "es6",
+  "global": "global.js",
+  "homepage": "http://PUT-YOUR-PACKAGE-HOMEPAGE-HERE",
+  "jspm": {
+    "registry": "jspm",
+    "directories": {
+      "lib": "src"
+    }
+  },
+  "keywords": [
+    "ADD-YOUR-KEYWORDS-HERE"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "npm-package-skeleton",
+  "repository": {
+    "type": "git",
+    "url": "PUT-YOUR-GIT-REPO-URL-HERE"
+  },
+  "scripts": {
+    "build-amd": "./.scripts/build-amd.sh",
+    "build-cjs": "./.scripts/build-cjs.sh",
+    "build-global": "./.scripts/build-global.sh",
+    "build-umd": "./.scripts/build-umd.sh",
+    "clean": "./.scripts/clean.sh",
+    "prepublish": "./.scripts/prepublish.sh",
+    "test": "./.scripts/test.sh"
+  },
+  "version": "1.0.0"
+}

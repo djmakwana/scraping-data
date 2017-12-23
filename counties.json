@@ -1,6 +1,6 @@
-{
-"BURLINGTON": { "code": "0301",
-       "name": "BURLINGTON",
+[
+{ "code": "0301",
+       "_id": "BURLINGTON",
        "districts": 
              [ { "code": "0301", "name": "BASS RIVER" },
                { "code": "0302", "name": "BEVERLY" },
@@ -44,8 +44,8 @@
                { "code": "0340", "name": "WRIGHTSTOWN" },
                { "code": "0300", "name": "ALL" } ] 
      },
-"CAMDEN": { "code": "0401",
-       "name": "CAMDEN",
+{ "code": "0401",
+       "_id": "CAMDEN",
        "districts": 
         [ { "code": "0401", "name": "AUDUBON" },
           { "code": "0402", "name": "AUDUBON PARK" },
@@ -86,8 +86,8 @@
           { "code": "0437", "name": "WOODLYNNE" },
           { "code": "0400", "name": "ALL" } ] 
      },
-"ATLANTIC": { "code": "0101",
-       "name": "ATLANTIC",
+{ "code": "0101",
+       "_id": "ATLANTIC",
        "districts": 
         [ { "code": "0101", "name": "ABSECON" },
           { "code": "0102", "name": "ATLANTIC CITY" },
@@ -114,8 +114,8 @@
           { "code": "0123", "name": "WEYMOUTH" },
           { "code": "0100", "name": "ALL" } ] 
      },
-"CAPE MAY": { "code": "0501",
-       "name": "CAPE MAY",
+{ "code": "0501",
+       "_id": "CAPE MAY",
        "districts": 
         [ { "code": "0501", "name": "AVALON" },
           { "code": "0502", "name": "CAPE MAY CITY" },
@@ -135,8 +135,8 @@
           { "code": "0516", "name": "WOODBINE" },
           { "code": "0500", "name": "ALL" } ] 
      },
-"CUMBERLAND": { "code": "0601",
-       "name": "CUMBERLAND",
+{ "code": "0601",
+       "_id": "CUMBERLAND",
        "districts": 
         [ { "code": "0601", "name": "BRIDGETON" },
           { "code": "0602", "name": "COMMERCIAL" },
@@ -154,8 +154,8 @@
           { "code": "0614", "name": "VINELAND" },
           { "code": "0600", "name": "ALL" } ] 
      },
-"BERGEN": { "code": "0201",
-       "name": "BERGEN",
+{ "code": "0201",
+       "_id": "BERGEN",
        "districts": 
         [ { "code": "0201", "name": "ALLENDALE" },
           { "code": "0202", "name": "ALPINE" },
@@ -229,8 +229,8 @@
           { "code": "0270", "name": "WYCKOFF" },
           { "code": "0200", "name": "ALL" } ] 
      },
-"HUNTERDON": { "code": "1001",
-       "name": "HUNTERDON",
+{ "code": "1001",
+       "_id": "HUNTERDON",
        "districts": 
         [ { "code": "1001", "name": "ALEXANDRIA" },
           { "code": "1002", "name": "BETHLEHEM" },
@@ -260,8 +260,8 @@
           { "code": "1026", "name": "WEST AMWELL" },
           { "code": "1000", "name": "ALL" } ] 
      },
-"MIDDLESEX": { "code": "1201",
-       "name": "MIDDLESEX",
+{ "code": "1201",
+       "_id": "MIDDLESEX",
        "districts": 
         [ { "code": "1201", "name": "CARTERET" },
           { "code": "1202", "name": "CRANBURY" },
@@ -290,8 +290,8 @@
           { "code": "1225", "name": "WOODBRIDGE" },
           { "code": "1200", "name": "ALL" } ] 
      },
-"MORRIS": { "code": "1401",
-       "name": "MORRIS",
+{ "code": "1401",
+       "_id": "MORRIS",
        "districts": 
         [ { "code": "1401", "name": "BOONTON TOWN" },
           { "code": "1402", "name": "BOONTON TOWNSHIP" },
@@ -334,8 +334,8 @@
           { "code": "1439", "name": "WHARTON" },
           { "code": "1400", "name": "ALL" } ] 
      },
-"GLOUCESTER": { "code": "0801",
-       "name": "GLOUCESTER",
+{ "code": "0801",
+       "_id": "GLOUCESTER",
        "districts": 
         [ { "code": "0801", "name": "CLAYTON" },
           { "code": "0802", "name": "DEPTFORD" },
@@ -363,8 +363,8 @@
           { "code": "0824", "name": "WOOLWICH" },
           { "code": "0800", "name": "ALL" } ] 
      },
-"ESSEX": { "code": "0701",
-       "name": "ESSEX",
+{ "code": "0701",
+       "_id": "ESSEX",
        "districts": 
         [ { "code": "0701", "name": "BELLEVILLE" },
           { "code": "0702", "name": "BLOOMFIELD" },
@@ -390,8 +390,8 @@
           { "code": "0722", "name": "WEST ORANGE" },
           { "code": "0700", "name": "ALL" } ] 
      },
-"WARREN": { "code": "2101",
-       "name": "WARREN",
+{ "code": "2101",
+       "_id": "WARREN",
        "districts": 
         [ { "code": "2101", "name": "ALLAMUCHY" },
           { "code": "2102", "name": "ALPHA" },
@@ -417,8 +417,8 @@
           { "code": "2123", "name": "WHITE" },
           { "code": "2100", "name": "ALL" } ] 
      },
-"MERCER": { "code": "1101",
-       "name": "MERCER",
+{ "code": "1101",
+       "_id": "MERCER",
        "districts": 
         [ { "code": "1101", "name": "EAST WINDSOR" },
           { "code": "1102", "name": "EWING" },
@@ -436,8 +436,8 @@
           { "code": "1114", "name": "PRINCETON" },
           { "code": "1100", "name": "ALL" } ] 
      },
-"HUDSON": { "code": "0901",
-       "name": "HUDSON",
+{ "code": "0901",
+       "_id": "HUDSON",
        "districts": 
         [ { "code": "0901", "name": "BAYONNE" },
           { "code": "0902", "name": "EAST NEWARK" },
@@ -453,8 +453,8 @@
           { "code": "0912", "name": "WEST NEW YORK" },
           { "code": "0900", "name": "ALL" } ] 
      },
-"SOMERSET": { "code": "1801",
-       "name": "SOMERSET",
+{ "code": "1801",
+       "_id": "SOMERSET",
        "districts": 
         [ { "code": "1801", "name": "BEDMINSTER" },
           { "code": "1802", "name": "BERNARDS" },
@@ -479,8 +479,8 @@
           { "code": "1821", "name": "WATCHUNG" },
           { "code": "1800", "name": "ALL" } ] 
      },
-"UNION": { "code": "2001",
-       "name": "UNION",
+{ "code": "2001",
+       "_id": "UNION",
        "districts": 
         [ { "code": "2001", "name": "BERKELEY HEIGHTS" },
           { "code": "2002", "name": "CLARK" },
@@ -505,8 +505,8 @@
           { "code": "2021", "name": "WINFIELD" },
           { "code": "2000", "name": "ALL" } ] 
      },
-"MONMOUTH": { "code": "1301",
-       "name": "MONMOUTH",
+{ "code": "1301",
+       "_id": "MONMOUTH",
        "districts": 
         [ { "code": "1301", "name": "ABERDEEN" },
           { "code": "1302", "name": "ALLENHURST" },
@@ -563,8 +563,8 @@
           { "code": "1353", "name": "WEST LONG BRANCH" },
           { "code": "1300", "name": "ALL" } ] 
      },
-"PASSAIC": { "code": "1601",
-       "name": "PASSAIC",
+{ "code": "1601",
+       "_id": "PASSAIC",
        "districts": 
         [ { "code": "1601", "name": "BLOOMINGDALE" },
           { "code": "1602", "name": "CLIFTON" },
@@ -584,8 +584,8 @@
           { "code": "1616", "name": "WEST PATERSON" },
           { "code": "1600", "name": "ALL" } ] 
      },
-"SALEM": { "code": "1701",
-       "name": "SALEM",
+{ "code": "1701",
+       "_id": "SALEM",
        "districts": 
         [ { "code": "1701", "name": "ALLOWAY" },
           { "code": "1702", "name": "CARNEYS POINT" },
@@ -604,8 +604,8 @@
           { "code": "1715", "name": "WOODSTOWN" },
           { "code": "1700", "name": "ALL" } ] 
      },
-"SUSSEX": { "code": "1901",
-       "name": "SUSSEX",
+{ "code": "1901",
+       "_id": "SUSSEX",
        "districts": 
         [ { "code": "1901", "name": "ANDOVER BOROUGH" },
           { "code": "1902", "name": "ANDOVER TOWNSHIP" },
@@ -633,4 +633,4 @@
           { "code": "1924", "name": "WANTAGE" },
           { "code": "1900", "name": "ALL" } ] 
      }
-}
+]

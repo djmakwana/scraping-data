@@ -2,7 +2,7 @@ var request = require('request');
 var cheerio = require('cheerio');
 var tableToJSON = require('tabletojson'); 
 var fs = require('fs');
-async = require('async'); 
+// async = require('async'); 
 
 var counties = {
 	'ATLANTIC' : { 'code': '0101', 'name': 'ATLANTIC', 'districts':[] },
@@ -26,34 +26,19 @@ var counties = {
 	'UNION' : { 'code': '2001', 'name': 'UNION', 'districts':[] },
 	'WARREN' : { 'code': '2101', 'name': 'WARREN', 'districts':[] }
 }; 
-var zips = JSON.parse( fs.readFileSync('zips1.json', 'utf8' )); 
-var fullData = {
-	'counties': counties,
-	'zips': zips
-}
+// var zips = JSON.parse( fs.readFileSync('zips1.json', 'utf8' )); 
+// var fullData = {
+// 	'counties': counties,
+// 	'zips': zips
+// }
 
 const url = 'http://tax1.co.monmouth.nj.us/cgi-bin/prc6.cgi?&ms_user=monm&passwd=data&srch_type=1&adv=1&out_type=1&district=';
 
-for ( var c in counties ) {
-	getCounties2( url, counties[c] ).then( function( cc ) {
-		console.log( cc ); 
-	})
-}
-
-// function getDistricts() {
-// 	return new Promise( function( resolve, reject ) {
-// 		for (var c in counties) {
-// 		    // check if the property/key is defined in the object itself, not in parent
-// 		    if (counties.hasOwnProperty(c)) {           
-// 				getCounties2( url, counties[c]).then( function( cc ) {
-// 					console.log( cc ); 
-// 				}); 
-// 		    }
-// 		}
-
+// for ( var c in counties ) {
+// 	getCounties2( url, counties[c] ).then( function( cc ) {
+// 		console.log( cc ); 
 // 	})
 // }
-
 
 
 function getCounties2( url, ddObj ) {
@@ -79,14 +64,11 @@ function getCounties2( url, ddObj ) {
 }
 
 //const zURL = 'http://www.zipcodestogo.com/New%20Jersey'; 
-
 // **** Need to get the ZIP.html file downloaded from above 'zURL'
-
 // function getZips() {
 // 	var file = fs.readFileSync('ZIP.html', "utf8");
 // 	//console.log(file);	
 // 	var $ = cheerio.load( file ); 
-// 	var zips = {};
 // 	$('.inner_table tr').filter( function() {
 // 		//console.log( $(this) ); 
 // 		var trs = $(this);
@@ -96,37 +78,33 @@ function getCounties2( url, ddObj ) {
 // 			var city = $(row).find('td:nth-child(2)').text(); 
 // 			var county = $(row).find('td:nth-child(3) a').text(); 
 // 			if ( zip.startsWith('0')) {
-// 				//console.log( zip, city, dist ); 
-// 				zips[zip] = {'zip': zip, 'city': city, 'county': county }; 
+// 				console.log({"zip": zip, "city": city, "county": county }); 
 // 			}
 // 		});
 // 	})
-// 	console.log( zips ); 
-
 // }
 // getZips(); 
 
-const schoolDistURL = 'https://nces.ed.gov/ccd/districtsearch/district_list.asp?Search=1&details=1&InstName=&DistrictID=&Address=&City=&State=&Zip=$ZIPCODE$&Miles=&County=&PhoneAreaCode=&Phone=&DistrictType=1&DistrictType=2&DistrictType=3&DistrictType=4&DistrictType=5&DistrictType=6&DistrictType=7&DistrictType=8&NumOfStudents=&NumOfStudentsRange=more&NumOfSchools=&NumOfSchoolsRange=more'
-//'body > div:nth-child(7) > div.sfsContent > table:nth-child(4) > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > font > a > strong'
+// const schoolDistURL = 'https://nces.ed.gov/ccd/districtsearch/district_list.asp?Search=1&details=1&InstName=&DistrictID=&Address=&City=&State=&Zip=$ZIPCODE$&Miles=&County=&PhoneAreaCode=&Phone=&DistrictType=1&DistrictType=2&DistrictType=3&DistrictType=4&DistrictType=5&DistrictType=6&DistrictType=7&DistrictType=8&NumOfStudents=&NumOfStudentsRange=more&NumOfSchools=&NumOfSchoolsRange=more'
 
-function getDistrictForZip( zip ) {
-	return new Promise( function( resolve, reject ) {	
-		var u = schoolDistURL.replace('$ZIPCODE$', zip ); 
-		//console.log( u );
-		request( u, function( error, resp, html ) {
-			if ( error ) {
-				reject( error ); 
-			}
-			var $ = cheerio.load( html ); 
-			$('div.sfsContent > table:nth-child(4) > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > font > a > strong').filter( function() {
-				var dist = $(this).text();
-				dist = dist.replace(/school district$/i, "" ); 
-				zips[zip].district = dist; 
-				resolve( zips[zip] ); 
-			});
-		})
-	});
-}
+// function getDistrictForZip( zip ) {
+// 	return new Promise( function( resolve, reject ) {	
+// 		var u = schoolDistURL.replace('$ZIPCODE$', zip ); 
+// 		//console.log( u );
+// 		request( u, function( error, resp, html ) {
+// 			if ( error ) {
+// 				reject( error ); 
+// 			}
+// 			var $ = cheerio.load( html ); 
+// 			$('div.sfsContent > table:nth-child(4) > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > font > a > strong').filter( function() {
+// 				var dist = $(this).text();
+// 				dist = dist.replace(/school district$/i, "" ); 
+// 				zips[zip].district = dist; 
+// 				resolve( zips[zip] ); 
+// 			});
+// 		})
+// 	});
+// }
 
 // for (var z in zips) {
 //     // check if the property/key is defined in the object itself, not in parent
