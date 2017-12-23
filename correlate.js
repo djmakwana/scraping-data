@@ -22,17 +22,18 @@ MongoClient.connect(url, function(err, client) {
 		console.log( zipRec.zip ); 
 		getDistrictForZip( zipRec.zip ).then( function( distName ) {
 			console.log( "Success found ", distName, "for", zipRec.zip ); 
-			// zips.update({zip:zipRec.zip}, {$set: {"district": distName }}, function( err, res ) {
-			// 	if ( !err ) {
-			// 		console.log( "Updated" ); 
-			// 	}
-			// })
+			zips.updateOne({zip:zipRec.zip}, {$set: {"district": distName }}, function( err, res ) {
+				if ( res.result && res.result.n == 1 ) {
+					console.log( "Updated", zipRec ); 
+				}
+				else if ( err ) {
+					console.log( "Failed", err ); 
+				}
+				client.close();
+			});
 		});
 	});
 
-
-
-	client.close();
 });
 
 // const lookupDistrict = function( db, zips, callback ) {
