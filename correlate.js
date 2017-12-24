@@ -23,6 +23,7 @@ MongoClient.connect(url, function(err, client) {
 		for ( var i = 0; i < docs.length; i++ ) {
 			//console.log( "Zip", docs[i] );
 			var zipRec = docs[i]; 
+
 			console.log( zipRec.zip ); 
 
 			getDistrictForZip( zipRec.zip ).then( function( rec ) {
@@ -38,7 +39,7 @@ MongoClient.connect(url, function(err, client) {
 			});
 		}
 		console.log( "Closing connection" );		
-		client.close();
+		//client.close();
 	});
 
 });
@@ -59,7 +60,7 @@ const findZipRecords = function(db, z, callback) {
   // Get the documents collection
   const collection = db.collection('zips');
   // Find some documents
-  collection.find().limit(5).toArray(function(err, docs) {
+  collection.find().toArray(function(err, docs) {
     callback(docs);
   });
 };
