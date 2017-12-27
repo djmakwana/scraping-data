@@ -1,0 +1,19 @@
+counties:
+  - name: "MERCER"
+    code: "1101"
+    zips:
+      - code: 08648
+        district: "LAWRENCE"
+      - code: 08540
+        district: "PRINCETON"
+      - code: 08520
+        district: "EAST WINDSOR"
+    districts:
+      - name: "LAWRENCE"
+        code: "1107"
+      - name: "EAST WINDSOR"
+        code: "1101"
+      - name: "PRINCETON"
+        code: "1114"
+      - name: "ALL"
+        code: "1100"

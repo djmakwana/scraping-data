@@ -1,0 +1,2340 @@
+{
+  "counties": [
+    {
+      "_id": "BURLINGTON",
+      "code": "0301",
+      "districts": [
+        {
+          "code": "0301",
+          "name": "BASS RIVER"
+        },
+        {
+          "code": "0302",
+          "name": "BEVERLY"
+        },
+        {
+          "code": "0303",
+          "name": "BORDENTOWN CITY"
+        },
+        {
+          "code": "0304",
+          "name": "BORDENTOWN TWP"
+        },
+        {
+          "code": "0305",
+          "name": "BURLINGTON CITY"
+        },
+        {
+          "code": "0306",
+          "name": "BURLINGTON TWP"
+        },
+        {
+          "code": "0307",
+          "name": "CHESTERFIELD"
+        },
+        {
+          "code": "0308",
+          "name": "CINNAMINSON"
+        },
+        {
+          "code": "0309",
+          "name": "DELANCO"
+        },
+        {
+          "code": "0310",
+          "name": "DELRAN"
+        },
+        {
+          "code": "0311",
+          "name": "EASTAMPTON"
+        },
+        {
+          "code": "0312",
+          "name": "EDGEWATER PARK"
+        },
+        {
+          "code": "0313",
+          "name": "EVESHAM"
+        },
+        {
+          "code": "0314",
+          "name": "FIELDSBORO"
+        },
+        {
+          "code": "0315",
+          "name": "FLORENCE"
+        },
+        {
+          "code": "0316",
+          "name": "HAINESPORT"
+        },
+        {
+          "code": "0317",
+          "name": "LUMBERTON"
+        },
+        {
+          "code": "0318",
+          "name": "MANSFIELD"
+        },
+        {
+          "code": "0319",
+          "name": "MAPLE SHADE"
+        },
+        {
+          "code": "0320",
+          "name": "MEDFORD TWP"
+        },
+        {
+          "code": "0321",
+          "name": "MEDFORD LAKES"
+        },
+        {
+          "code": "0322",
+          "name": "MOORESTOWN"
+        },
+        {
+          "code": "0323",
+          "name": "MOUNT HOLLY"
+        },
+        {
+          "code": "0324",
+          "name": "MOUNT LAUREL"
+        },
+        {
+          "code": "0325",
+          "name": "NEW HANOVER"
+        },
+        {
+          "code": "0326",
+          "name": "NORTH HANOVER"
+        },
+        {
+          "code": "0327",
+          "name": "PALMYRA"
+        },
+        {
+          "code": "0328",
+          "name": "PEMBERTON BORO"
+        },
+        {
+          "code": "0329",
+          "name": "PEMBERTON TWP"
+        },
+        {
+          "code": "0330",
+          "name": "RIVERSIDE"
+        },
+        {
+          "code": "0331",
+          "name": "RIVERTON"
+        },
+        {
+          "code": "0332",
+          "name": "SHAMONG"
+        },
+        {
+          "code": "0333",
+          "name": "SOUTHAMPTON"
+        },
+        {
+          "code": "0334",
+          "name": "SPRINGFIELD"
+        },
+        {
+          "code": "0335",
+          "name": "TABERNACLE"
+        },
+        {
+          "code": "0336",
+          "name": "WASHINGTON"
+        },
+        {
+          "code": "0337",
+          "name": "WESTAMPTON"
+        },
+        {
+          "code": "0338",
+          "name": "WILLINGBORO"
+        },
+        {
+          "code": "0339",
+          "name": "WOODLAND"
+        },
+        {
+          "code": "0340",
+          "name": "WRIGHTSTOWN"
+        },
+        {
+          "code": "0300",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "CAMDEN",
+      "code": "0401",
+      "districts": [
+        {
+          "code": "0401",
+          "name": "AUDUBON"
+        },
+        {
+          "code": "0402",
+          "name": "AUDUBON PARK"
+        },
+        {
+          "code": "0403",
+          "name": "BARRINGTON"
+        },
+        {
+          "code": "0404",
+          "name": "BELLMAWR"
+        },
+        {
+          "code": "0405",
+          "name": "BERLIN BOROUGH"
+        },
+        {
+          "code": "0406",
+          "name": "BERLIN TOWNSHIP"
+        },
+        {
+          "code": "0407",
+          "name": "BROOKLAWN"
+        },
+        {
+          "code": "0408",
+          "name": "CAMDEN CITY"
+        },
+        {
+          "code": "0409",
+          "name": "CHERRY HILL"
+        },
+        {
+          "code": "0410",
+          "name": "CHESILHURST"
+        },
+        {
+          "code": "0411",
+          "name": "CLEMENTON"
+        },
+        {
+          "code": "0412",
+          "name": "COLLINGSWOOD"
+        },
+        {
+          "code": "0413",
+          "name": "GIBBSBORO"
+        },
+        {
+          "code": "0414",
+          "name": "GLOUCESTER CITY"
+        },
+        {
+          "code": "0415",
+          "name": "GLOUCESTER TOWNSHIP"
+        },
+        {
+          "code": "0416",
+          "name": "HADDON TOWNSHIP"
+        },
+        {
+          "code": "0417",
+          "name": "HADDONFIELD"
+        },
+        {
+          "code": "0418",
+          "name": "HADDON HEIGHTS"
+        },
+        {
+          "code": "0419",
+          "name": "HI NELLA"
+        },
+        {
+          "code": "0420",
+          "name": "LAUREL SPRINGS"
+        },
+        {
+          "code": "0421",
+          "name": "LAWNSIDE"
+        },
+        {
+          "code": "0422",
+          "name": "LINDENWOLD"
+        },
+        {
+          "code": "0423",
+          "name": "MAGNOLIA"
+        },
+        {
+          "code": "0424",
+          "name": "MERCHANTVILLE"
+        },
+        {
+          "code": "0425",
+          "name": "MOUNT EPHRAIM"
+        },
+        {
+          "code": "0426",
+          "name": "OAKLYN"
+        },
+        {
+          "code": "0427",
+          "name": "PENNSAUKEN"
+        },
+        {
+          "code": "0428",
+          "name": "PINE HILL"
+        },
+        {
+          "code": "0429",
+          "name": "PINE VALLEY"
+        },
+        {
+          "code": "0430",
+          "name": "RUNNEMEDE"
+        },
+        {
+          "code": "0431",
+          "name": "SOMERDALE"
+        },
+        {
+          "code": "0432",
+          "name": "STRATFORD"
+        },
+        {
+          "code": "0433",
+          "name": "TAVISTOCK"
+        },
+        {
+          "code": "0434",
+          "name": "VOORHEES"
+        },
+        {
+          "code": "0435",
+          "name": "WATERFORD"
+        },
+        {
+          "code": "0436",
+          "name": "WINSLOW"
+        },
+        {
+          "code": "0437",
+          "name": "WOODLYNNE"
+        },
+        {
+          "code": "0400",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "ATLANTIC",
+      "code": "0101",
+      "districts": [
+        {
+          "code": "0101",
+          "name": "ABSECON"
+        },
+        {
+          "code": "0102",
+          "name": "ATLANTIC CITY"
+        },
+        {
+          "code": "0103",
+          "name": "BRIGANTINE"
+        },
+        {
+          "code": "0104",
+          "name": "BUENA"
+        },
+        {
+          "code": "0105",
+          "name": "BUENA VISTA"
+        },
+        {
+          "code": "0106",
+          "name": "CORBIN"
+        },
+        {
+          "code": "0107",
+          "name": "EGG HARBOR CITY"
+        },
+        {
+          "code": "0108",
+          "name": "EGG HARBOR TWP"
+        },
+        {
+          "code": "0109",
+          "name": "ESTELL MANOR"
+        },
+        {
+          "code": "0110",
+          "name": "FOLSOM"
+        },
+        {
+          "code": "0111",
+          "name": "GALLOWAY"
+        },
+        {
+          "code": "0112",
+          "name": "HAMILTON"
+        },
+        {
+          "code": "0113",
+          "name": "HAMMONTON"
+        },
+        {
+          "code": "0114",
+          "name": "LINWOOD"
+        },
+        {
+          "code": "0115",
+          "name": "LONGPORT"
+        },
+        {
+          "code": "0116",
+          "name": "MARGATE"
+        },
+        {
+          "code": "0117",
+          "name": "MULLICA"
+        },
+        {
+          "code": "0118",
+          "name": "NORTHFIELD"
+        },
+        {
+          "code": "0119",
+          "name": "PLEASANTVILLE"
+        },
+        {
+          "code": "0120",
+          "name": "PORT REPUBLIC"
+        },
+        {
+          "code": "0121",
+          "name": "SOMERS POINT"
+        },
+        {
+          "code": "0122",
+          "name": "VENTNOR"
+        },
+        {
+          "code": "0123",
+          "name": "WEYMOUTH"
+        },
+        {
+          "code": "0100",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "CAPE MAY",
+      "code": "0501",
+      "districts": [
+        {
+          "code": "0501",
+          "name": "AVALON"
+        },
+        {
+          "code": "0502",
+          "name": "CAPE MAY CITY"
+        },
+        {
+          "code": "0503",
+          "name": "CAPE MAY POINT"
+        },
+        {
+          "code": "0504",
+          "name": "DENNIS TOWNSHIP"
+        },
+        {
+          "code": "0505",
+          "name": "LOWER TOWNSHIP"
+        },
+        {
+          "code": "0506",
+          "name": "MIDDLE TOWNSHIP"
+        },
+        {
+          "code": "0507",
+          "name": "NORTH WILDWOOD"
+        },
+        {
+          "code": "0508",
+          "name": "OCEAN CITY"
+        },
+        {
+          "code": "0509",
+          "name": "SEA ISLE CITY"
+        },
+        {
+          "code": "0510",
+          "name": "STONE HARBOR"
+        },
+        {
+          "code": "0511",
+          "name": "UPPER TOWNSHIP"
+        },
+        {
+          "code": "0512",
+          "name": "WEST CAPE MAY"
+        },
+        {
+          "code": "0513",
+          "name": "WEST WILDWOOD"
+        },
+        {
+          "code": "0514",
+          "name": "WILDWOOD"
+        },
+        {
+          "code": "0515",
+          "name": "WILDWOOD CREST"
+        },
+        {
+          "code": "0516",
+          "name": "WOODBINE"
+        },
+        {
+          "code": "0500",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "CUMBERLAND",
+      "code": "0601",
+      "districts": [
+        {
+          "code": "0601",
+          "name": "BRIDGETON"
+        },
+        {
+          "code": "0602",
+          "name": "COMMERCIAL"
+        },
+        {
+          "code": "0603",
+          "name": "DEERFIELD"
+        },
+        {
+          "code": "0604",
+          "name": "DOWNE"
+        },
+        {
+          "code": "0605",
+          "name": "FAIRFIELD"
+        },
+        {
+          "code": "0606",
+          "name": "GREENWICH"
+        },
+        {
+          "code": "0607",
+          "name": "HOPEWELL"
+        },
+        {
+          "code": "0608",
+          "name": "LAWRENCE"
+        },
+        {
+          "code": "0609",
+          "name": "MAURICE RIVER"
+        },
+        {
+          "code": "0610",
+          "name": "MILLVILLE"
+        },
+        {
+          "code": "0611",
+          "name": "SHILOH"
+        },
+        {
+          "code": "0612",
+          "name": "STOW CREEK"
+        },
+        {
+          "code": "0613",
+          "name": "UPPER DEERFIELD"
+        },
+        {
+          "code": "0614",
+          "name": "VINELAND"
+        },
+        {
+          "code": "0600",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "BERGEN",
+      "code": "0201",
+      "districts": [
+        {
+          "code": "0201",
+          "name": "ALLENDALE"
+        },
+        {
+          "code": "0202",
+          "name": "ALPINE"
+        },
+        {
+          "code": "0203",
+          "name": "BERGENFIELD"
+        },
+        {
+          "code": "0204",
+          "name": "BOGOTA"
+        },
+        {
+          "code": "0205",
+          "name": "CARLSTADT"
+        },
+        {
+          "code": "0206",
+          "name": "CLIFFSIDE"
+        },
+        {
+          "code": "0207",
+          "name": "CLOSTER"
+        },
+        {
+          "code": "0208",
+          "name": "CRESSKILL"
+        },
+        {
+          "code": "0209",
+          "name": "DEMAREST"
+        },
+        {
+          "code": "0210",
+          "name": "DUMONT"
+        },
+        {
+          "code": "0212",
+          "name": "EAST RUTHERFORD"
+        },
+        {
+          "code": "0213",
+          "name": "EDGEWATER"
+        },
+        {
+          "code": "0211",
+          "name": "ELMWOOD PARK"
+        },
+        {
+          "code": "0214",
+          "name": "EMERSON"
+        },
+        {
+          "code": "0215",
+          "name": "ENGLEWOOD"
+        },
+        {
+          "code": "0216",
+          "name": "ENGLEWOOD CLIFFS"
+        },
+        {
+          "code": "0217",
+          "name": "FAIR LAWN"
+        },
+        {
+          "code": "0218",
+          "name": "FAIRVIEW"
+        },
+        {
+          "code": "0219",
+          "name": "FORT LEE"
+        },
+        {
+          "code": "0220",
+          "name": "FRANKLIN LAKES"
+        },
+        {
+          "code": "0221",
+          "name": "GARFIELD"
+        },
+        {
+          "code": "0222",
+          "name": "GLEN ROCK"
+        },
+        {
+          "code": "0223",
+          "name": "HACKENSACK"
+        },
+        {
+          "code": "0224",
+          "name": "HARRINGTON"
+        },
+        {
+          "code": "0225",
+          "name": "HASBROUCK HEIGHTS"
+        },
+        {
+          "code": "0226",
+          "name": "HAWORTH"
+        },
+        {
+          "code": "0227",
+          "name": "HILLSDALE"
+        },
+        {
+          "code": "0228",
+          "name": "HOHOKUS"
+        },
+        {
+          "code": "0229",
+          "name": "LEONIA"
+        },
+        {
+          "code": "0230",
+          "name": "LITTLE FERRY"
+        },
+        {
+          "code": "0231",
+          "name": "LODI"
+        },
+        {
+          "code": "0232",
+          "name": "LYNDHURST"
+        },
+        {
+          "code": "0233",
+          "name": "MAHWAH"
+        },
+        {
+          "code": "0234",
+          "name": "MAYWOOD"
+        },
+        {
+          "code": "0235",
+          "name": "MIDLAND PARK"
+        },
+        {
+          "code": "0236",
+          "name": "MONTVALE"
+        },
+        {
+          "code": "0237",
+          "name": "MOONACHIE"
+        },
+        {
+          "code": "0238",
+          "name": "NEW MILFORD"
+        },
+        {
+          "code": "0239",
+          "name": "NORTH ARLINGTON"
+        },
+        {
+          "code": "0240",
+          "name": "NORTHVALE"
+        },
+        {
+          "code": "0241",
+          "name": "NORWOOD"
+        },
+        {
+          "code": "0242",
+          "name": "OAKLAND"
+        },
+        {
+          "code": "0243",
+          "name": "OLD TAPPAN"
+        },
+        {
+          "code": "0244",
+          "name": "ORADELL"
+        },
+        {
+          "code": "0245",
+          "name": "PALISADES PARK"
+        },
+        {
+          "code": "0246",
+          "name": "PARAMUS"
+        },
+        {
+          "code": "0247",
+          "name": "PARK RIDGE"
+        },
+        {
+          "code": "0248",
+          "name": "RAMSEY"
+        },
+        {
+          "code": "0249",
+          "name": "RIDGEFIELD"
+        },
+        {
+          "code": "0250",
+          "name": "RIDGEFIELD PARK"
+        },
+        {
+          "code": "0251",
+          "name": "RIDGEWOOD"
+        },
+        {
+          "code": "0252",
+          "name": "RIVER EDGE"
+        },
+        {
+          "code": "0253",
+          "name": "RIVERVALE"
+        },
+        {
+          "code": "0254",
+          "name": "ROCHELLE PARK"
+        },
+        {
+          "code": "0255",
+          "name": "ROCKLEIGH"
+        },
+        {
+          "code": "0256",
+          "name": "RUTHERFORD"
+        },
+        {
+          "code": "0257",
+          "name": "SADDLE BROOK"
+        },
+        {
+          "code": "0258",
+          "name": "SADDLE RIVER"
+        },
+        {
+          "code": "0259",
+          "name": "SOUTH HACKENSACK"
+        },
+        {
+          "code": "0260",
+          "name": "TEANECK"
+        },
+        {
+          "code": "0261",
+          "name": "TENAFLY"
+        },
+        {
+          "code": "0262",
+          "name": "TETERBORO"
+        },
+        {
+          "code": "0263",
+          "name": "UPPER SADDLE RIVER"
+        },
+        {
+          "code": "0264",
+          "name": "WALDWICK"
+        },
+        {
+          "code": "0265",
+          "name": "WALLINGTON"
+        },
+        {
+          "code": "0266",
+          "name": "WASHINGTON"
+        },
+        {
+          "code": "0267",
+          "name": "WESTWOOD"
+        },
+        {
+          "code": "0268",
+          "name": "WOODCLIFF LAKE"
+        },
+        {
+          "code": "0269",
+          "name": "WOOD RIDGE"
+        },
+        {
+          "code": "0270",
+          "name": "WYCKOFF"
+        },
+        {
+          "code": "0200",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "HUNTERDON",
+      "code": "1001",
+      "districts": [
+        {
+          "code": "1001",
+          "name": "ALEXANDRIA"
+        },
+        {
+          "code": "1002",
+          "name": "BETHLEHEM"
+        },
+        {
+          "code": "1003",
+          "name": "BLOOMSBURY"
+        },
+        {
+          "code": "1004",
+          "name": "CALIFON"
+        },
+        {
+          "code": "1005",
+          "name": "CLINTON TOWN"
+        },
+        {
+          "code": "1006",
+          "name": "CLINTON TOWNSHIP"
+        },
+        {
+          "code": "1007",
+          "name": "DELAWARE"
+        },
+        {
+          "code": "1008",
+          "name": "EAST AMWELL"
+        },
+        {
+          "code": "1009",
+          "name": "FLEMINGTON"
+        },
+        {
+          "code": "1010",
+          "name": "FRANKLIN"
+        },
+        {
+          "code": "1011",
+          "name": "FRENCHTOWN"
+        },
+        {
+          "code": "1012",
+          "name": "GLEN GARDNER"
+        },
+        {
+          "code": "1013",
+          "name": "HAMPTON"
+        },
+        {
+          "code": "1014",
+          "name": "HIGH BRIDGE"
+        },
+        {
+          "code": "1015",
+          "name": "HOLLAND"
+        },
+        {
+          "code": "1016",
+          "name": "KINGWOOD"
+        },
+        {
+          "code": "1017",
+          "name": "LAMBERTVILLE"
+        },
+        {
+          "code": "1018",
+          "name": "LEBANON BOROUGH"
+        },
+        {
+          "code": "1019",
+          "name": "LEBANON TOWNSHIP"
+        },
+        {
+          "code": "1020",
+          "name": "MILFORD"
+        },
+        {
+          "code": "1021",
+          "name": "RARITAN TOWNSHIP"
+        },
+        {
+          "code": "1022",
+          "name": "READINGTON"
+        },
+        {
+          "code": "1023",
+          "name": "STOCKTON"
+        },
+        {
+          "code": "1024",
+          "name": "TEWKSBURY"
+        },
+        {
+          "code": "1025",
+          "name": "UNION TOWNSHIP"
+        },
+        {
+          "code": "1026",
+          "name": "WEST AMWELL"
+        },
+        {
+          "code": "1000",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "MIDDLESEX",
+      "code": "1201",
+      "districts": [
+        {
+          "code": "1201",
+          "name": "CARTERET"
+        },
+        {
+          "code": "1202",
+          "name": "CRANBURY"
+        },
+        {
+          "code": "1203",
+          "name": "DUNELLEN"
+        },
+        {
+          "code": "1204",
+          "name": "EAST BRUNSWICK"
+        },
+        {
+          "code": "1205",
+          "name": "EDISON"
+        },
+        {
+          "code": "1206",
+          "name": "HELMETTA"
+        },
+        {
+          "code": "1207",
+          "name": "HIGHLAND"
+        },
+        {
+          "code": "1208",
+          "name": "JAMESBURG"
+        },
+        {
+          "code": "1209",
+          "name": "METUCHEN"
+        },
+        {
+          "code": "1210",
+          "name": "MIDDLESEX"
+        },
+        {
+          "code": "1211",
+          "name": "MILLTOWN"
+        },
+        {
+          "code": "1212",
+          "name": "MONROE"
+        },
+        {
+          "code": "1213",
+          "name": "NEW BRUNSWICK"
+        },
+        {
+          "code": "1214",
+          "name": "NORTH BRUNSWICK"
+        },
+        {
+          "code": "1215",
+          "name": "OLD BRIDGE"
+        },
+        {
+          "code": "1216",
+          "name": "PERTH AMBOY"
+        },
+        {
+          "code": "1217",
+          "name": "PISCATAWAY"
+        },
+        {
+          "code": "1218",
+          "name": "PLAINSBORO"
+        },
+        {
+          "code": "1219",
+          "name": "SAYREVILLE"
+        },
+        {
+          "code": "1220",
+          "name": "SOUTH AMBOY"
+        },
+        {
+          "code": "1221",
+          "name": "SOUTH BRUNSWICK"
+        },
+        {
+          "code": "1222",
+          "name": "SOUTH PLAINFIELD"
+        },
+        {
+          "code": "1223",
+          "name": "SOUTH RIVER"
+        },
+        {
+          "code": "1224",
+          "name": "SPOTSWOOD"
+        },
+        {
+          "code": "1225",
+          "name": "WOODBRIDGE"
+        },
+        {
+          "code": "1200",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "MORRIS",
+      "code": "1401",
+      "districts": [
+        {
+          "code": "1401",
+          "name": "BOONTON TOWN"
+        },
+        {
+          "code": "1402",
+          "name": "BOONTON TOWNSHIP"
+        },
+        {
+          "code": "1403",
+          "name": "BUTLER"
+        },
+        {
+          "code": "1404",
+          "name": "CHATHAM BOROUGH"
+        },
+        {
+          "code": "1405",
+          "name": "CHATHAM TOWNSHIP"
+        },
+        {
+          "code": "1406",
+          "name": "CHESTER BOROUGH"
+        },
+        {
+          "code": "1407",
+          "name": "CHESTER TOWNSHIP"
+        },
+        {
+          "code": "1408",
+          "name": "DENVILLE"
+        },
+        {
+          "code": "1409",
+          "name": "DOVER"
+        },
+        {
+          "code": "1410",
+          "name": "EAST HANOVER"
+        },
+        {
+          "code": "1411",
+          "name": "FLORHAM PARK"
+        },
+        {
+          "code": "1412",
+          "name": "HANOVER"
+        },
+        {
+          "code": "1413",
+          "name": "HARDING"
+        },
+        {
+          "code": "1414",
+          "name": "JEFFERSON"
+        },
+        {
+          "code": "1415",
+          "name": "KINNELON"
+        },
+        {
+          "code": "1416",
+          "name": "LINCOLN PARK"
+        },
+        {
+          "code": "1430",
+          "name": "LONG HILL"
+        },
+        {
+          "code": "1417",
+          "name": "MADISON"
+        },
+        {
+          "code": "1418",
+          "name": "MENDHAM BOROUGH"
+        },
+        {
+          "code": "1419",
+          "name": "MENDHAM TOWNSHIP"
+        },
+        {
+          "code": "1420",
+          "name": "MINE HILL"
+        },
+        {
+          "code": "1421",
+          "name": "MONTVILLE"
+        },
+        {
+          "code": "1423",
+          "name": "MORRIS PLAINS"
+        },
+        {
+          "code": "1422",
+          "name": "MORRIS TOWNSHIP"
+        },
+        {
+          "code": "1424",
+          "name": "MORRISTOWN"
+        },
+        {
+          "code": "1425",
+          "name": "MOUNTAIN LAKES"
+        },
+        {
+          "code": "1426",
+          "name": "MT ARLINGTON"
+        },
+        {
+          "code": "1427",
+          "name": "MT OLIVE"
+        },
+        {
+          "code": "1428",
+          "name": "NETCONG"
+        },
+        {
+          "code": "1429",
+          "name": "PARSIPPANY"
+        },
+        {
+          "code": "1431",
+          "name": "PEQUANNOCK"
+        },
+        {
+          "code": "1432",
+          "name": "RANDOLPH"
+        },
+        {
+          "code": "1433",
+          "name": "RIVERDALE"
+        },
+        {
+          "code": "1434",
+          "name": "ROCKAWAY BOROUGH"
+        },
+        {
+          "code": "1435",
+          "name": "ROCKAWAY TOWNSHIP"
+        },
+        {
+          "code": "1436",
+          "name": "ROXBURY"
+        },
+        {
+          "code": "1437",
+          "name": "VICTORY GARDENS"
+        },
+        {
+          "code": "1438",
+          "name": "WASHINGTON"
+        },
+        {
+          "code": "1439",
+          "name": "WHARTON"
+        },
+        {
+          "code": "1400",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "GLOUCESTER",
+      "code": "0801",
+      "districts": [
+        {
+          "code": "0801",
+          "name": "CLAYTON"
+        },
+        {
+          "code": "0802",
+          "name": "DEPTFORD"
+        },
+        {
+          "code": "0803",
+          "name": "EAST GREENWICH"
+        },
+        {
+          "code": "0804",
+          "name": "ELK"
+        },
+        {
+          "code": "0805",
+          "name": "FRANKLIN"
+        },
+        {
+          "code": "0806",
+          "name": "GLASSBORO"
+        },
+        {
+          "code": "0807",
+          "name": "GREENWICH"
+        },
+        {
+          "code": "0808",
+          "name": "HARRISON"
+        },
+        {
+          "code": "0809",
+          "name": "LOGAN"
+        },
+        {
+          "code": "0810",
+          "name": "MANTUA"
+        },
+        {
+          "code": "0811",
+          "name": "MONROE"
+        },
+        {
+          "code": "0812",
+          "name": "NATIONAL PARK"
+        },
+        {
+          "code": "0813",
+          "name": "NEWFIELD"
+        },
+        {
+          "code": "0814",
+          "name": "PAULSBORO"
+        },
+        {
+          "code": "0815",
+          "name": "PITMAN"
+        },
+        {
+          "code": "0816",
+          "name": "SOUTH HARRISON"
+        },
+        {
+          "code": "0817",
+          "name": "SWEDESBORO"
+        },
+        {
+          "code": "0818",
+          "name": "WASHINGTON"
+        },
+        {
+          "code": "0819",
+          "name": "WENONAH"
+        },
+        {
+          "code": "0820",
+          "name": "WEST DEPTFORD"
+        },
+        {
+          "code": "0821",
+          "name": "WESTVILLE"
+        },
+        {
+          "code": "0822",
+          "name": "WOODBURY CITY"
+        },
+        {
+          "code": "0823",
+          "name": "WOODBURY HEIGHTS"
+        },
+        {
+          "code": "0824",
+          "name": "WOOLWICH"
+        },
+        {
+          "code": "0800",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "ESSEX",
+      "code": "0701",
+      "districts": [
+        {
+          "code": "0701",
+          "name": "BELLEVILLE"
+        },
+        {
+          "code": "0702",
+          "name": "BLOOMFIELD"
+        },
+        {
+          "code": "0703",
+          "name": "CALDWELL BORO"
+        },
+        {
+          "code": "0704",
+          "name": "CEDAR GROVE"
+        },
+        {
+          "code": "0705",
+          "name": "EAST ORANGE"
+        },
+        {
+          "code": "0706",
+          "name": "ESSEX FELLS"
+        },
+        {
+          "code": "0707",
+          "name": "FAIRFIELD"
+        },
+        {
+          "code": "0708",
+          "name": "GLEN RIDGE"
+        },
+        {
+          "code": "0709",
+          "name": "IRVINGTON"
+        },
+        {
+          "code": "0710",
+          "name": "LIVINGSTON"
+        },
+        {
+          "code": "0711",
+          "name": "MAPLEWOOD"
+        },
+        {
+          "code": "0712",
+          "name": "MILLBURN"
+        },
+        {
+          "code": "0713",
+          "name": "MONTCLAIR"
+        },
+        {
+          "code": "0714",
+          "name": "NEWARK"
+        },
+        {
+          "code": "0715",
+          "name": "NORTH CALDWELL"
+        },
+        {
+          "code": "0716",
+          "name": "NUTLEY"
+        },
+        {
+          "code": "0717",
+          "name": "ORANGE"
+        },
+        {
+          "code": "0718",
+          "name": "ROSELAND"
+        },
+        {
+          "code": "0719",
+          "name": "SOUTH ORANGE"
+        },
+        {
+          "code": "0720",
+          "name": "VERONA"
+        },
+        {
+          "code": "0721",
+          "name": "WEST CALDWELL"
+        },
+        {
+          "code": "0722",
+          "name": "WEST ORANGE"
+        },
+        {
+          "code": "0700",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "WARREN",
+      "code": "2101",
+      "districts": [
+        {
+          "code": "2101",
+          "name": "ALLAMUCHY"
+        },
+        {
+          "code": "2102",
+          "name": "ALPHA"
+        },
+        {
+          "code": "2103",
+          "name": "BELVIDERE"
+        },
+        {
+          "code": "2104",
+          "name": "BLAIRSTOWN"
+        },
+        {
+          "code": "2105",
+          "name": "FRANKLIN"
+        },
+        {
+          "code": "2106",
+          "name": "FRELINGHUYSEN"
+        },
+        {
+          "code": "2107",
+          "name": "GREENWICH"
+        },
+        {
+          "code": "2108",
+          "name": "HACKETTSTOWN"
+        },
+        {
+          "code": "2109",
+          "name": "HARDWICK"
+        },
+        {
+          "code": "2110",
+          "name": "HARMONY"
+        },
+        {
+          "code": "2111",
+          "name": "HOPE"
+        },
+        {
+          "code": "2112",
+          "name": "INDEPENDENCE"
+        },
+        {
+          "code": "2113",
+          "name": "KNOWLTON"
+        },
+        {
+          "code": "2114",
+          "name": "LIBERTY"
+        },
+        {
+          "code": "2115",
+          "name": "LOPATCONG"
+        },
+        {
+          "code": "2116",
+          "name": "MANSFIELD"
+        },
+        {
+          "code": "2117",
+          "name": "OXFORD"
+        },
+        {
+          "code": "2119",
+          "name": "PHILLIPSBURG"
+        },
+        {
+          "code": "2120",
+          "name": "POHATCONG"
+        },
+        {
+          "code": "2121",
+          "name": "WASHINGTON BOROUGH"
+        },
+        {
+          "code": "2122",
+          "name": "WASHINGTON TOWNSHIP"
+        },
+        {
+          "code": "2123",
+          "name": "WHITE"
+        },
+        {
+          "code": "2100",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "MERCER",
+      "code": "1101",
+      "districts": [
+        {
+          "code": "1101",
+          "name": "EAST WINDSOR"
+        },
+        {
+          "code": "1102",
+          "name": "EWING"
+        },
+        {
+          "code": "1103",
+          "name": "HAMILTON"
+        },
+        {
+          "code": "1104",
+          "name": "HIGHTSTOWN"
+        },
+        {
+          "code": "1105",
+          "name": "HOPEWELL BOROUGH"
+        },
+        {
+          "code": "1106",
+          "name": "HOPEWELL TOWNSHIP"
+        },
+        {
+          "code": "1107",
+          "name": "LAWRENCE"
+        },
+        {
+          "code": "1108",
+          "name": "PENNINGTON"
+        },
+        {
+          "code": "1109",
+          "name": "PRINCETON BOROUGH"
+        },
+        {
+          "code": "1110",
+          "name": "PRINCETON TOWNSHIP"
+        },
+        {
+          "code": "1111",
+          "name": "TRENTON"
+        },
+        {
+          "code": "1112",
+          "name": "ROBBINSVILLE TOWNSHIP"
+        },
+        {
+          "code": "1113",
+          "name": "WEST WINDSOR"
+        },
+        {
+          "code": "1114",
+          "name": "PRINCETON"
+        },
+        {
+          "code": "1100",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "HUDSON",
+      "code": "0901",
+      "districts": [
+        {
+          "code": "0901",
+          "name": "BAYONNE"
+        },
+        {
+          "code": "0902",
+          "name": "EAST NEWARK"
+        },
+        {
+          "code": "0903",
+          "name": "GUTTENBERG"
+        },
+        {
+          "code": "0904",
+          "name": "HARRISON"
+        },
+        {
+          "code": "0905",
+          "name": "HOBOKEN"
+        },
+        {
+          "code": "0906",
+          "name": "JERSEY CITY"
+        },
+        {
+          "code": "0907",
+          "name": "KEARNY"
+        },
+        {
+          "code": "0908",
+          "name": "NORTH BERGEN"
+        },
+        {
+          "code": "0909",
+          "name": "SECAUCUS"
+        },
+        {
+          "code": "0910",
+          "name": "UNION CITY"
+        },
+        {
+          "code": "0911",
+          "name": "WEEHAWKEN"
+        },
+        {
+          "code": "0912",
+          "name": "WEST NEW YORK"
+        },
+        {
+          "code": "0900",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "SOMERSET",
+      "code": "1801",
+      "districts": [
+        {
+          "code": "1801",
+          "name": "BEDMINSTER"
+        },
+        {
+          "code": "1802",
+          "name": "BERNARDS"
+        },
+        {
+          "code": "1803",
+          "name": "BERNARDSVILLE"
+        },
+        {
+          "code": "1804",
+          "name": "BOUND BROOK"
+        },
+        {
+          "code": "1805",
+          "name": "BRANCHBURG"
+        },
+        {
+          "code": "1806",
+          "name": "BRIDGEWATER"
+        },
+        {
+          "code": "1807",
+          "name": "FAR HILLS"
+        },
+        {
+          "code": "1808",
+          "name": "FRANKLIN"
+        },
+        {
+          "code": "1809",
+          "name": "GREEN BROOK"
+        },
+        {
+          "code": "1810",
+          "name": "HILLSBOROUGH"
+        },
+        {
+          "code": "1811",
+          "name": "MANVILLE"
+        },
+        {
+          "code": "1812",
+          "name": "MILLSTONE"
+        },
+        {
+          "code": "1813",
+          "name": "MONTGOMERY"
+        },
+        {
+          "code": "1814",
+          "name": "NORTH PLAINFIELD"
+        },
+        {
+          "code": "1815",
+          "name": "PEAPACK-GLADSTONE"
+        },
+        {
+          "code": "1816",
+          "name": "RARITAN"
+        },
+        {
+          "code": "1817",
+          "name": "ROCKY HILL"
+        },
+        {
+          "code": "1818",
+          "name": "SOMERVILLE"
+        },
+        {
+          "code": "1819",
+          "name": "SOUTH BOUND"
+        },
+        {
+          "code": "1820",
+          "name": "WARREN"
+        },
+        {
+          "code": "1821",
+          "name": "WATCHUNG"
+        },
+        {
+          "code": "1800",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "UNION",
+      "code": "2001",
+      "districts": [
+        {
+          "code": "2001",
+          "name": "BERKELEY HEIGHTS"
+        },
+        {
+          "code": "2002",
+          "name": "CLARK"
+        },
+        {
+          "code": "2003",
+          "name": "CRANFORD"
+        },
+        {
+          "code": "2004",
+          "name": "ELIZABETH"
+        },
+        {
+          "code": "2005",
+          "name": "FANWOOD"
+        },
+        {
+          "code": "2006",
+          "name": "GARWOOD"
+        },
+        {
+          "code": "2007",
+          "name": "HILLSIDE"
+        },
+        {
+          "code": "2008",
+          "name": "KENILWORTH"
+        },
+        {
+          "code": "2009",
+          "name": "LINDEN"
+        },
+        {
+          "code": "2010",
+          "name": "MOUNTAINSIDE"
+        },
+        {
+          "code": "2011",
+          "name": "NEW PROVIDENCE"
+        },
+        {
+          "code": "2012",
+          "name": "PLAINFIELD"
+        },
+        {
+          "code": "2013",
+          "name": "RAHWAY"
+        },
+        {
+          "code": "2014",
+          "name": "ROSELLE BOROUGH"
+        },
+        {
+          "code": "2015",
+          "name": "ROSELLE PARK BORO"
+        },
+        {
+          "code": "2016",
+          "name": "SCOTCH PLAINS"
+        },
+        {
+          "code": "2017",
+          "name": "SPRINGFIELD"
+        },
+        {
+          "code": "2018",
+          "name": "SUMMIT"
+        },
+        {
+          "code": "2019",
+          "name": "UNION"
+        },
+        {
+          "code": "2020",
+          "name": "WESTFIELD"
+        },
+        {
+          "code": "2021",
+          "name": "WINFIELD"
+        },
+        {
+          "code": "2000",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "MONMOUTH",
+      "code": "1301",
+      "districts": [
+        {
+          "code": "1301",
+          "name": "ABERDEEN"
+        },
+        {
+          "code": "1302",
+          "name": "ALLENHURST"
+        },
+        {
+          "code": "1303",
+          "name": "ALLENTOWN"
+        },
+        {
+          "code": "1304",
+          "name": "ASBURY PARK"
+        },
+        {
+          "code": "1305",
+          "name": "ATLANTIC HIGHLANDS"
+        },
+        {
+          "code": "1306",
+          "name": "AVON-BY-THE-SEA"
+        },
+        {
+          "code": "1307",
+          "name": "BELMAR"
+        },
+        {
+          "code": "1308",
+          "name": "BRADLEY BEACH"
+        },
+        {
+          "code": "1309",
+          "name": "BRIELLE"
+        },
+        {
+          "code": "1310",
+          "name": "COLTS NECK"
+        },
+        {
+          "code": "1311",
+          "name": "DEAL"
+        },
+        {
+          "code": "1312",
+          "name": "EATONTOWN"
+        },
+        {
+          "code": "1313",
+          "name": "ENGLISHTOWN"
+        },
+        {
+          "code": "1314",
+          "name": "FAIR HAVEN"
+        },
+        {
+          "code": "1315",
+          "name": "FARMINGDALE"
+        },
+        {
+          "code": "1316",
+          "name": "FREEHOLD BORO"
+        },
+        {
+          "code": "1317",
+          "name": "FREEHOLD TOWNSHIP"
+        },
+        {
+          "code": "1318",
+          "name": "HAZLET"
+        },
+        {
+          "code": "1319",
+          "name": "HIGHLANDS"
+        },
+        {
+          "code": "1320",
+          "name": "HOLMDEL"
+        },
+        {
+          "code": "1321",
+          "name": "HOWELL"
+        },
+        {
+          "code": "1322",
+          "name": "INTERLAKEN"
+        },
+        {
+          "code": "1323",
+          "name": "KEANSBURG"
+        },
+        {
+          "code": "1324",
+          "name": "KEYPORT"
+        },
+        {
+          "code": "1325",
+          "name": "LITTLE SILVER"
+        },
+        {
+          "code": "1326",
+          "name": "LOCH ARBOUR"
+        },
+        {
+          "code": "1327",
+          "name": "LONG BRANCH"
+        },
+        {
+          "code": "1328",
+          "name": "MANALAPAN"
+        },
+        {
+          "code": "1329",
+          "name": "MANASQUAN"
+        },
+        {
+          "code": "1330",
+          "name": "MARLBORO"
+        },
+        {
+          "code": "1331",
+          "name": "MATAWAN"
+        },
+        {
+          "code": "1332",
+          "name": "MIDDLETOWN"
+        },
+        {
+          "code": "1333",
+          "name": "MILLSTONE"
+        },
+        {
+          "code": "1334",
+          "name": "MONMOUTH BEACH"
+        },
+        {
+          "code": "1335",
+          "name": "NEPTUNE TOWNSHIP"
+        },
+        {
+          "code": "1336",
+          "name": "NEPTUNE CITY"
+        },
+        {
+          "code": "1337",
+          "name": "OCEAN TOWNSHIP"
+        },
+        {
+          "code": "1338",
+          "name": "OCEANPORT"
+        },
+        {
+          "code": "1339",
+          "name": "RED BANK"
+        },
+        {
+          "code": "1340",
+          "name": "ROOSEVELT"
+        },
+        {
+          "code": "1341",
+          "name": "RUMSON"
+        },
+        {
+          "code": "1342",
+          "name": "SEA BRIGHT"
+        },
+        {
+          "code": "1343",
+          "name": "SEA GIRT"
+        },
+        {
+          "code": "1344",
+          "name": "SHREWSBURY BORO"
+        },
+        {
+          "code": "1345",
+          "name": "SHREWSBURY TOWNSHIP"
+        },
+        {
+          "code": "1346",
+          "name": "LAKE COMO BORO"
+        },
+        {
+          "code": "1347",
+          "name": "SPRING LAKE BORO"
+        },
+        {
+          "code": "1348",
+          "name": "SPRING LAKE HEIGHTS"
+        },
+        {
+          "code": "1349",
+          "name": "TINTON FALLS"
+        },
+        {
+          "code": "1350",
+          "name": "UNION BEACH"
+        },
+        {
+          "code": "1351",
+          "name": "UPPER FREEHOLD"
+        },
+        {
+          "code": "1352",
+          "name": "WALL TOWNSHIP"
+        },
+        {
+          "code": "1353",
+          "name": "WEST LONG BRANCH"
+        },
+        {
+          "code": "1300",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "PASSAIC",
+      "code": "1601",
+      "districts": [
+        {
+          "code": "1601",
+          "name": "BLOOMINGDALE"
+        },
+        {
+          "code": "1602",
+          "name": "CLIFTON"
+        },
+        {
+          "code": "1603",
+          "name": "HALEDON"
+        },
+        {
+          "code": "1604",
+          "name": "HAWTHORNE"
+        },
+        {
+          "code": "1605",
+          "name": "LITTLE FALLS"
+        },
+        {
+          "code": "1606",
+          "name": "NORTH HALEDON"
+        },
+        {
+          "code": "1607",
+          "name": "PASSAIC"
+        },
+        {
+          "code": "1608",
+          "name": "PATERSON"
+        },
+        {
+          "code": "1609",
+          "name": "POMPTON LAKES"
+        },
+        {
+          "code": "1610",
+          "name": "PROSPECT PARK"
+        },
+        {
+          "code": "1611",
+          "name": "RINGWOOD"
+        },
+        {
+          "code": "1612",
+          "name": "TOTOWA"
+        },
+        {
+          "code": "1613",
+          "name": "WANAQUE"
+        },
+        {
+          "code": "1614",
+          "name": "WAYNE"
+        },
+        {
+          "code": "1615",
+          "name": "WEST MILFORD"
+        },
+        {
+          "code": "1616",
+          "name": "WEST PATERSON"
+        },
+        {
+          "code": "1600",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "SALEM",
+      "code": "1701",
+      "districts": [
+        {
+          "code": "1701",
+          "name": "ALLOWAY"
+        },
+        {
+          "code": "1702",
+          "name": "CARNEYS POINT"
+        },
+        {
+          "code": "1703",
+          "name": "ELMER"
+        },
+        {
+          "code": "1704",
+          "name": "ELSINBORO"
+        },
+        {
+          "code": "1705",
+          "name": "LOWER ALLOWAYS CREEK"
+        },
+        {
+          "code": "1706",
+          "name": "MANNINGTON"
+        },
+        {
+          "code": "1707",
+          "name": "OLDMANS"
+        },
+        {
+          "code": "1708",
+          "name": "PENNS GROVE"
+        },
+        {
+          "code": "1709",
+          "name": "PENNSVILLE"
+        },
+        {
+          "code": "1710",
+          "name": "PILESGROVE"
+        },
+        {
+          "code": "1711",
+          "name": "PITTSGROVE"
+        },
+        {
+          "code": "1712",
+          "name": "QUINTON"
+        },
+        {
+          "code": "1713",
+          "name": "SALEM CITY"
+        },
+        {
+          "code": "1714",
+          "name": "UPPER PITTSGROVE"
+        },
+        {
+          "code": "1715",
+          "name": "WOODSTOWN"
+        },
+        {
+          "code": "1700",
+          "name": "ALL"
+        }
+      ]
+    },
+    {
+      "_id": "SUSSEX",
+      "code": "1901",
+      "districts": [
+        {
+          "code": "1901",
+          "name": "ANDOVER BOROUGH"
+        },
+        {
+          "code": "1902",
+          "name": "ANDOVER TOWNSHIP"
+        },
+        {
+          "code": "1903",
+          "name": "BRANCHVILLE"
+        },
+        {
+          "code": "1904",
+          "name": "BYRAM"
+        },
+        {
+          "code": "1905",
+          "name": "FRANKFORD"
+        },
+        {
+          "code": "1906",
+          "name": "FRANKLIN"
+        },
+        {
+          "code": "1907",
+          "name": "FREDON"
+        },
+        {
+          "code": "1908",
+          "name": "GREEN"
+        },
+        {
+          "code": "1909",
+          "name": "HAMBURG"
+        },
+        {
+          "code": "1910",
+          "name": "HAMPTON"
+        },
+        {
+          "code": "1911",
+          "name": "HARDYSTON"
+        },
+        {
+          "code": "1912",
+          "name": "HOPATCONG"
+        },
+        {
+          "code": "1913",
+          "name": "LAFAYETTE"
+        },
+        {
+          "code": "1914",
+          "name": "MONTAGUE"
+        },
+        {
+          "code": "1915",
+          "name": "NEWTON"
+        },
+        {
+          "code": "1916",
+          "name": "OGDENSBURG"
+        },
+        {
+          "code": "1917",
+          "name": "SANDYSTON"
+        },
+        {
+          "code": "1918",
+          "name": "SPARTA"
+        },
+        {
+          "code": "1919",
+          "name": "STANHOPE"
+        },
+        {
+          "code": "1920",
+          "name": "STILLWATER"
+        },
+        {
+          "code": "1921",
+          "name": "SUSSEX"
+        },
+        {
+          "code": "1922",
+          "name": "VERNON"
+        },
+        {
+          "code": "1923",
+          "name": "WALPACK"
+        },
+        {
+          "code": "1924",
+          "name": "WANTAGE"
+        },
+        {
+          "code": "1900",
+          "name": "ALL"
+        }
+      ]
+    }
+  ]
+}
