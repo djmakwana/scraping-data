@@ -1,0 +1,7 @@
+[
+{ "_id" : "08104", "cities" : [ "Haddon Township", "Camden" ], "counties" : [ "Camden" ], "count" : 2 }
+{ "_id" : "07950", "cities" : [ "Morris Plains", "Greystone Park" ], "counties" : [ "Morris" ], "count" : 2 }
+{ "_id" : "08108", "cities" : [ "Haddon Township", "Collingswood" ], "counties" : [ "Camden" ], "count" : 2 }
+{ "_id" : "08096", "cities" : [ "Woodbury", "Deptford" ], "counties" : [ "Gloucester" ], "count" : 2 }
+{ "_id" : "08107", "cities" : [ "Oaklyn", "Haddon Township" ], "counties" : [ "Camden" ], "count" : 2 }
+]
