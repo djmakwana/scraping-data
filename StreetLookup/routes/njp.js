@@ -68,18 +68,25 @@ function getZipResult(zip, streets) {
     		request( url, function( error, resp, html ) {
     			if ( error ) {
     				reject( error ); 
+    				return; 
     			}
+    			if ( undefined === html ) {
+    				reject({error: "No response received and no error code. Timeout?" });
+    				return; 
+    			}
+    			//console.log( html ); 
     			var $ = cheerio.load( html );
     			var owners = []; 
-    			$('td:nth-child(3)', '#main > div:nth-child(1) > div.col-md-8 > table > tbody > tr').filter( function() {
-    				var data = $(this); 
-    				var owner = data.find('a').text();
-    				// replace <br> with space to get proper address
-    				data.find('br').replaceWith(', '); 
-    				var addr = data.find('.listing_sub').text();
-    				//console.log( owner + " lives at " + addr );
+    			$('#main > div:nth-child(1) > div.col-md-8 > table > tbody > tr').filter( function() {
+    				var owner = $(this).find('td:nth-child(3) > a').text();
+    				//console.log( owner ); 
+    				var address = $(this).find('td:nth-child(2) > a').text();
+    				$(this).find('td:nth-child(2) > div.listing_sub > br').replaceWith(' ');
+    				var a2 = $(this).find('td:nth-child(2) > div.listing_sub').text();
+    				address += " " + a2; 
+    				//console.log( address );
     				owners.push({
-    					address: addr,
+    					address: address,
     					name: owner
     				});
     			})
@@ -129,7 +136,7 @@ function parseZipConfig(file) {
 const zipFile = './data/finalZ.json';
 const zips = parseZipConfig(zipFile);
 
-getZipResult('08648', 'marchesi')
+getZipResult('08648', 'vaccaro')
 	.then( (val) => { 
 		//console.log( "Found " + val );
 		console.log( util.inspect(val, false, null));
