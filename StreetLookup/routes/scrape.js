@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const fs = require('fs');
 const tableToJSON = require('tabletojson');
 const yaml = require('js-yaml');
+var utils = require('../lib/utils'); 
 
 // function parseConfig(file) {
 //     try {
@@ -31,101 +31,97 @@ const yaml = require('js-yaml');
 //     }
 // }
 
-function parseZipConfig(file) {
-    try {
-        const config = yaml.safeLoad(fs.readFileSync(file));
-        const counties = config.counties;
-        let found = 0;
-        let notFound = 0;
-        if (undefined === counties) {
-            console.log('zip data file has no counties');
-            return undefined;
-        }
-        const ret = {};
-        for (const c in counties) {
-            const entry = counties[c];
-            const zip = entry.zip;
-            const district = entry.district;
-            if ( undefined === district ) {
-                // console.log("District not found for zip " + zip);
-                notFound++;
-                continue;
-            }
-            found++;
-            ret[zip] = {zip : zip, district:
-                        district.trim().toLowerCase(),
-                        city: entry.city.trim().toLowerCase(),
-                        county : entry.county.trim().toLowerCase()
-            };
-        }
-        console.log("Total zips :" + (found+notFound) + ", not found : " + notFound);
-        return ret;
-    } catch (e) {
-        console.log(e);
-        return undefined;
-    }
-}
-
-function parseCountyConfig(file) {
-    try {
-        const config = yaml.safeLoad(fs.readFileSync(file));
-        const counties = config.counties;
-        let found = 0;
-        let notFound = 0;
-        if (undefined === counties) {
-            console.log('zip data file has no counties');
-            return undefined;
-        }
-        const ret = {};
-        for (const c in counties) {
-            const entry = counties[c];
-            const name = entry._id.trim().toLocaleLowerCase();
-            const cc = entry.code;
-            const districts = entry.districts;
-            if ( undefined === districts ) {
-                console.log("District not found for county " + name);
-                notFound++;
-                continue;
-            }
-            entry.districts.forEach(c => {
-                found++;
-                let d = c.name.trim().toLowerCase();
-                if( d === 'all') {
-                    d = name + '_all';
-                }
-                ret[d] = {
-                    name: d,
-                    code: c.code,
-                    county: name,
-                    cc: cc
-                }
-            });
-        }
-        console.log("Total districts :" + (found+notFound) + ", not found : " + notFound);
-        return ret;
-    } catch (e) {
-        console.log(e);
-        return undefined;
-    }
-}
+//function parseZipConfig(file) {
+//    try {
+//        const config = yaml.safeLoad(fs.readFileSync(file));
+//        const counties = config.counties;
+//        let found = 0;
+//        let notFound = 0;
+//        if (undefined === counties) {
+//            console.log('zip data file has no counties');
+//            return undefined;
+//        }
+//        const ret = {};
+//        for (const c in counties) {
+//            const entry = counties[c];
+//            const zip = entry.zip;
+//            const district = entry.district;
+//            if ( undefined === district ) {
+//                // console.log("District not found for zip " + zip);
+//                notFound++;
+//                continue;
+//            }
+//            found++;
+//            ret[zip] = {zip : zip, district:
+//                        district.trim().toLowerCase(),
+//                        city: entry.city.trim().toLowerCase(),
+//                        county : entry.county.trim().toLowerCase()
+//            };
+//        }
+//        console.log("Total zips :" + (found+notFound) + ", not found : " + notFound);
+//        return ret;
+//    } catch (e) {
+//        console.log(e);
+//        return undefined;
+//    }
+//}
+//
+//function parseCountyConfig(file) {
+//    try {
+//        const config = yaml.safeLoad(fs.readFileSync(file));
+//        const counties = config.counties;
+//        let found = 0;
+//        let notFound = 0;
+//        if (undefined === counties) {
+//            console.log('zip data file has no counties');
+//            return undefined;
+//        }
+//        const ret = {};
+//        for (const c in counties) {
+//            const entry = counties[c];
+//            const name = entry._id.trim().toLocaleLowerCase();
+//            const cc = entry.code;
+//            const districts = entry.districts;
+//            if ( undefined === districts ) {
+//                console.log("District not found for county " + name);
+//                notFound++;
+//                continue;
+//            }
+//            entry.districts.forEach(c => {
+//                found++;
+//                let d = c.name.trim().toLowerCase();
+//                if( d === 'all') {
+//                    d = name + '_all';
+//                }
+//                ret[d] = {
+//                    name: d,
+//                    code: c.code,
+//                    county: name,
+//                    cc: cc
+//                }
+//            });
+//        }
+//        console.log("Total districts :" + (found+notFound) + ", not found : " + notFound);
+//        return ret;
+//    } catch (e) {
+//        console.log(e);
+//        return undefined;
+//    }
+//}
 
 let baseUrl = 'http://tax1.co.monmouth.nj.us/cgi-bin/inf.cgi?&ms_user=monm&passwd=data&srch_type=1&adv=1&out_type=1&ms_ln=1000';
 
 // const file = './data/nj_county.yml';
 // const counties = parseConfig(file);
-const zipFile = './data/finalZ.json';
-const zips = parseZipConfig(zipFile);
-const distFile = './data/finalC.json';
-const districts = parseCountyConfig(distFile);
 //console.log( districts );
 //console.log (zips);
 
-if(undefined === zips || 0 === zips.length ) {
-    console.error("Error in parsing file '" + zipFile.name + "'");
-}
-if(undefined === districts || 0 === districts.length) {
-    console.error("Error in parsing districts from file : '" + distFile.name + "'");
-}
+//if(undefined === zips || 0 === zips.length ) {
+//    console.error("Error in parsing file '" + zipFile.name + "'");
+//}
+//if(undefined === districts || 0 === districts.length) {
+//    console.error("Error in parsing districts from file : '" + distFile.name + "'");
+//}
 
 
 function getJson(url) {
@@ -154,33 +150,25 @@ function getJson(url) {
     })
 }
 
-function districtLookup(zip, deepLookup) {
-    let zipMatch = zips[zip];
-    if( undefined === zipMatch ) {
-        return undefined;
-    }
-    let distMatch = districts[ zipMatch.district ];
-    if( undefined === distMatch ) {
-        if( deepLookup ) {
-            distMatch = districts[ zipMatch.county + "_all" ];
-            return distMatch;
-        } else {
-            return undefined;
-        }
-    }
-    return distMatch;
-}
+//function districtLookup(zip, deepLookup) {
+//    let zipMatch = utils.zips[zip];
+//    console.log( "districtLookup", zip, zipMatch ); 
+//    if( undefined === zipMatch ) {
+//        return undefined;
+//    }
+//    let distMatch = utils.districts[ zipMatch.district ];
+//    if( undefined === distMatch ) {
+//        if( deepLookup ) {
+//            distMatch = utils.districts[ zipMatch.county + "_all" ];
+//            return distMatch;
+//        } else {
+//            return undefined;
+//        }
+//    }
+//    return distMatch;
+//}
 
-let total=0;
-let notFound=0;
-for(let key in zips) {
-    let dist = districtLookup(key);
-    if(undefined === dist) {
-        notFound++;
-    }
-    total++;
-}
-console.log("Total zip lookup : " + total + ", no district found for : " + notFound + " zips");
+utils.checkDistricts(); 
 
 
 function getZipResult(zip, streets) {
@@ -204,7 +192,7 @@ function getZipResult(zip, streets) {
         //         return;
         //     }
         // }
-        let distMatch = districtLookup(zip);
+        let distMatch = utils.districtLookup(zip);
         if( undefined === distMatch) {
             reject({error: "No district found for zip '" + zip +"'"});
             return;

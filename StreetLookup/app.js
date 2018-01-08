@@ -7,7 +7,11 @@ var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
+var utils = require('./lib/utils'); 
+
+utils.loadMapping(); 
 var scrape = require('./routes/scrape');
+var scrapeNJP = require('./routes/njp'); 
 
 var app = express();
 
@@ -26,6 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/users', users);
 app.use('/scrape', scrape);
+app.use('/scrapenjp', scrapeNJP);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
